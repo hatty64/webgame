@@ -1,0 +1,66 @@
+.ball {
+    place-self: center;
+    }
+    
+    .number {
+    text-align: center;
+    font-size: 43px
+    }
+    
+    body {
+        display: grid;
+        background-color: violet;
+        font-family: 'Courier New', Courier, monospace;
+        overflow: hidden;
+    }
+    
+    .button {
+        width: 200px;
+        font-size: 25px;
+        background-color: greenyellow;
+        border-style: solid;
+        display: none;
+    }
+    
+    .button2 {
+        width: 200px;
+        font-size: 25px;
+        background-color: rgb(255, 165, 47);
+        border-style: solid;
+        margin-left: 71%;
+        display: none;
+    }
+    
+    .third_place {
+        place-self: center;
+        display: none;
+    }
+    
+    .second_place {
+        place-self: center;
+        display: none;
+    }
+    
+    .first_place {
+        place-self: center;
+        display: none;
+    }
+    
+    
+    .flex-container {
+        display: grid;
+    }
+    
+    .flex_2 {
+        display: grid;
+    }
+    
+    .flexin_my_mus {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+    
+    .flex_3 {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }

@@ -64,3 +64,9 @@
         display: grid;
         grid-template-columns: auto auto auto;
     }
+
+    .link {
+        position: absolute;
+        bottom: 30px;
+        right: 42%;
+    }

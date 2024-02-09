@@ -36,13 +36,26 @@ var silver = document.getElementById("silver")
 
 var gold = document.getElementById("gold")
 
-function playaudio() {
-    click_sound.play()
-    click_sound.currentTime = 0
-}
+var clicks = 0
+
+var ninety_medal = document.getElementById("ninety_medal")
+
+var timer = setInterval(() => {
+    clicks = 0
+    console.log('reset')
+}, 60000);
+
+
 
 function clicked() 
 { 
+    clicks++
+    console.log(clicks)
+    if (clicks >= 90) {
+
+        ninety_medal.style.display = "grid"
+    }
+    
     ball.src = "./images/ball_happy.png"
     setTimeout(() => {
         ball.src = "./images/ball_normal.png"
@@ -159,3 +172,17 @@ setInterval(() => {
         auto_click_eighty.style.display = "grid"
     }
 }, 500);
+
+  
+//   document.addEventListener("DOMContentLoaded", () => {
+//     number = localStorage.getItem("point") || 0;
+//   }) 
+
+
+  
+
+  function populateStorage() {
+    localStorage.setItem("point", number.innerHTML);
+  }
+
+

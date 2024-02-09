@@ -27,7 +27,7 @@
         font-size: 25px;
         background-color: rgb(255, 165, 47);
         border-style: solid;
-        margin-left: 71%;
+        margin-left: 820%;
         display: none;
     }
     
@@ -53,6 +53,7 @@
     
     .flex_2 {
         display: grid;
+        position: absolute;
     }
     
     .flexin_my_mus {
@@ -69,4 +70,9 @@
         position: absolute;
         bottom: 30px;
         right: 42%;
+    }
+
+    .ninety_medal {
+        display: none;
+        position: absolute;
     }
